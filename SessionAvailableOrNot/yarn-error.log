@@ -1,0 +1,39 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\yarn\bin\yarn.js add axios
+
+PATH: 
+  C:\Dev\ReactNative\BlogAzure\node_modules\.bin;C:\Program Files (x86)\Microsoft SDKs\Azure\CLI2\wbin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Users\admin\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Users\admin\AppData\Local\Android\Sdk\platform-tools;C:\Program Files\Microsoft\Azure Functions Core Tools\;C:\Users\admin\AppData\Local\Microsoft\WindowsApps;C:\Users\admin\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Users\admin\AppData\Local\Programs\Microsoft VS Code\bin
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  14.17.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  SyntaxError: C:\Dev\ReactNative\BlogAzure\SessionAvailableOrNot\package.json: Unexpected token } in JSON at position 129
+      at JSON.parse (<anonymous>)
+      at C:\Users\admin\AppData\Roaming\nvm\v14.17.0\node_modules\yarn\lib\cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (C:\Users\admin\AppData\Roaming\nvm\v14.17.0\node_modules\yarn\lib\cli.js:310:30)
+      at C:\Users\admin\AppData\Roaming\nvm\v14.17.0\node_modules\yarn\lib\cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "",
+    "version": "",
+    "description": "",
+    "scripts": {
+      "test": "echo \"No tests yet...\""
+    },
+    "author": "",
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
